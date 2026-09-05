@@ -1,0 +1,7 @@
+# 二进制文件禁止换行符转换
+*.pdf binary
+*.stl binary
+*.png binary
+# 文本统一 LF
+*.md text eol=lf
+*.py text eol=lf
