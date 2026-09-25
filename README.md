@@ -14,10 +14,27 @@ files, printable STLs, gear-train calculators and build documentation. (Docs in 
 
 | 目录 | 内容 |
 |---|---|
-| `stl/` | 可直接打印的 STL：重新设计的后轴承座、轮辐盘 ×4 |
+| `stl/` | 全套可打印 STL：前桥、后桥、轮辐盘（见下方零件清单） |
 | `docs/机械结构说明书.pdf` | 差速器 / 传动 / 悬挂三大系统的原理与装配说明（含矢量示意图） |
 | `docs/team/` | 团队文档模板：分工表、每日调试日志、赛道测试与调参记录、道具赛机制设计、差速器装配流程 |
 | `tools/` | 齿轮传动计算器（Python）与说明书 PDF 生成脚本 |
+
+## 零件清单
+
+![零件总览](docs/images/parts_gallery.png)
+
+| 文件 | 说明 |
+|---|---|
+| `front_plate_final_0828.stl` | **前桥打印板（最终定稿版）**：主框架 + 转向节 + 轮毂盘，刚性结构 + 顶丝锁 + 销槽转向 |
+| `rear_axle_mount_redesign.stl` | **后轴承座（重设计版）**：半圆轴承窝 + 侧导轨 |
+| `rear_axle_carrier_print_plate.stl` | 后桥载架打印板（两个框架） |
+| `rear_drive_mount.stl` | 后驱动电机支架 |
+| `rear_axle_cradle_racefix.stl` | 后轴托架 —— 比赛日凌晨 2:10 的抢修件，赛场应急设计的纪念 |
+| `mate_interface_reference.stl` | 后桥配合接口基准件：新零件的四工位轴线必须与它对齐 |
+| `wheel_plate_x4.stl` | 轮辐盘 ×4 打印板 |
+| `iterations/` | 被最终版取代的历史迭代（前桥 v1/v5、后轴承座旧版），保留供参考设计演进 |
+
+打印参数：PLA，所有孔按名义尺寸 +0.25 mm 补偿设计（宁松勿紧，松了用顶丝锁）。
 
 ## 关键设计参数
 
